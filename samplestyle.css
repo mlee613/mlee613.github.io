@@ -1,11 +1,42 @@
 body {
-  background-color: LavenderBlush;}
+  background-color: Lavender;}
 
 h1 {
-text-align: center;}
+text-align: center;
+font-size: 60px;
+font-family: 'Dancing Script', cursive;}
+
+li {
+padding-left: 15px;
+margin: 5px;}
+
+.links {
+font-size: 30px;
+font-family: 'Cormorant Garamond', serif;
+}
+
+.captions {
+font-size: 20px;
+font-family: 'Cormorant Garamond', serif;
+}
 
 a:hover {
-  background-color: Plum;}
+  background-color: LightSkyBlue;
+  font-family: 'Cormorant Garamond', serif;}
 
- button {
- background-color: FloralWhite;}
+a:link {
+  color: SlateBlue;
+}
+
+a:visited {
+  color: MidnightBlue;
+}
+
+a:active {
+  color: Thistle;
+}
+
+.container {
+ align-items: center;
+ background-color: Snow;
+ font-family: 'Cormorant Garamond', serif;}
